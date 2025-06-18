@@ -80,22 +80,6 @@ City_Explorer/
 ├── README.md              # Project documentation  
 └── LICENSE                # License information  
 ```
-
----
-## **📂 Folder Structure**
-
-City_Explorer/
-├── public/                # Static assets & index.html  
-├── src/                   # Source code  
-│   ├── components/        # Reusable UI components like Navbar, Footer, Login, Signup  
-│   ├── context/           # Authentication & global state management  
-│   ├── pages/             # Route-based page components (Home, About, Listings, etc.)  
-│   ├── styles/            # CSS files & custom styling including gradients  
-│   ├── App.jsx            # Main app component with routing configuration  
-│   └── index.js           # React app entry point  
-├── package.json           # Project metadata & dependencies  
-└── README.md              # Project documentation  
-
 ---
 
 ## **🤝 Contribution Guidelines**
