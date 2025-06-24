@@ -1,4 +1,4 @@
-# ** Hotel_booking_DAC_45 🏙️✨**
+# **Hotel_booking_DAC_45 🏙️✨**
 
 Welcome to **Hotel_booking_DAC_45*, the ultimate city adventure platform!  
 A collaborative group project by a passionate team building a seamless experience connecting explorers, hosts, and admins to discover and manage city treasures. 🚀🌆
