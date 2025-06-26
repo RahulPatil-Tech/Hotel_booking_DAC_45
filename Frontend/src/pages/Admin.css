@@ -1,0 +1,99 @@
+/* Background with elegant gradient */
+.admin-bg {
+  height: 100vh;
+  background-image: linear-gradient(to right, #edc29e, #adc8cb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Animated entrance */
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-in {
+  animation: scaleIn 0.6s ease-out forwards;
+}
+
+/* Glass panel styling */
+.admin-glass {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 650px;
+  width: 90%;
+  color: white;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(31, 38, 135, 0.6);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Text styles */
+.admin-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.admin-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #fdfdfd;
+}
+
+/* Button group */
+.admin-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.admin-btn {
+  padding: 14px 26px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 24px rgba(31, 38, 135, 0.4);
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+
+.admin-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border: 2px solid white;
+  transform: scale(1.05);
+  box-shadow: 0 10px 28px rgba(31, 38, 135, 0.5);
+}
+
+/* Responsive fix */
+@media (max-width: 600px) {
+  .admin-btn {
+    width: 100%;
+  }
+
+  .admin-title {
+    font-size: 2rem;
+  }
+
+  .admin-subtitle {
+    font-size: 1rem;
+  }
+}
