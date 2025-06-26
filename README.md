@@ -1,121 +1,178 @@
-# **City_Explorer 🏙️✨**
+<h1 align="center">🌆 City_Explorer</h1>
 
-Welcome to **City_Explorer**, the ultimate city adventure platform!  
-A collaborative group project by a passionate team building a seamless experience connecting explorers, hosts, and admins to discover and manage city treasures. 🚀🌆
+<p align="center">
+  <b>Your gateway to discovering and managing urban adventures!</b><br/>
+  Connect explorers, hosts, and admins in one seamless web app.
+</p>
 
----
-
-## **👩‍💻 Team Members & Roles**
-
-| Name            | Role               | Responsibilities                      |  
-|-----------------|--------------------|-------------------------------------|  
-| Rahul Patil     | Frontend Developer ⚛️ | UI Components, React Hooks, Styling |  
-| Khushi Nikhare  | Backend Developer 🛠️  | API, Authentication, State Management |  
-| Yash Rathod      | QA Engineer ✅       | Testing, Bug Fixing, Quality Control |  
-
----
-
-## **🚀 Project Overview**
-
-City_Explorer is a **modern web app** designed to connect users with exciting city listings, from cozy stays to thrilling experiences. Whether you're a curious explorer, a welcoming host, or an admin overseeing the platform, City_Explorer empowers you to engage effortlessly.
-
-Our team harnessed the power of React, Bootstrap, and context-driven state management to create a smooth, fast, and beautiful user experience.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2.0-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Bootstrap-5.3.0-purple?logo=bootstrap" />
+  <img src="https://img.shields.io/badge/Context%20API-State%20Management-blueviolet" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20Team-orange" />
+</p>
 
 ---
 
-## **🌟 Key Features**
+## 🧠 Overview
 
-- 🎭 **Role-based Access:** Explorer, Host, Admin with tailored dashboards  
-- 🔐 **Secure Auth:** Signup, Login, Logout with seamless redirects  
-- 🏠 **Listings:** Add, view, search, filter by category  
-- 📅 **Bookings:** Manage and track bookings efficiently  
-- ⭐ **Ratings & Reviews:** User feedback and trust-building  
-- 📱 **Responsive Design:** Mobile-first approach with Bootstrap 5  
-- 🔔 **Toast Notifications:** Real-time feedback for all actions  
-- 👤 **Profile Management:** Dropdown menu with quick login/signup/logout  
+**City_Explorer** is a modern and user-centric web application that connects:
+- 🧭 **Explorers** to discover city destinations  
+- 🏠 **Hosts** to list properties and manage bookings  
+- 👑 **Admins** to oversee users and listings
+
+Built with **React**, **Bootstrap 5**, and **Context API**, the app ensures a responsive, role-based, and secure experience for every type of user.
 
 ---
 
-## **💻 Tech Stack**
+## 👩‍💻 Team Members
 
-- **React.js** (Hooks & Functional Components)  
-- **React Router DOM** for SPA routing  
-- **React Toastify** for stylish notifications  
-- **Bootstrap 5** for sleek and responsive UI  
-- **Context API** for global state & authentication  
-- **Git & GitHub** for version control and collaboration  
+| Name              | Role                  | Responsibilities                           |
+|-------------------|-----------------------|--------------------------------------------|
+| 🎨 Rahul Patil     | Frontend Developer ⚛️   | UI Components, React Hooks, Styling         |
+| 🛠️ Khushi Nikhare   | Backend Developer 🛠️   | API Integration, Auth, State Management     |
+| ✅ Yash Rathod      | QA Engineer ✅        | Testing, Bug Fixing, Quality Control        |
 
 ---
 
-## **⚙️ Setup & Installation**
+## 🧭 Role-Based Dashboards
 
-1. Clone the repository  
+### 👑 Admin Dashboard  
+Manage hosts and explorers with a clean, card-based UI.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d9dd792e-9b68-44c5-8efc-23805d893e5f" width="700"/>
+</p>
+
+---
+
+### 🏠 Host Panel  
+Hosts can list properties, manage bookings, and interact easily.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/20eafe37-ddac-447e-9ebe-34bf0606c8f2" width="700"/>
+</p>
+
+---
+
+### 🌍 Explorer Page  
+Travelers can browse destinations, explore categories, and make bookings.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/75ce01bf-1f9a-446d-9447-366c35ef980b" width="700"/>
+</p>
+
+---
+
+## 🖼️ App UI Screenshots
+
+### 🔐 Login Page
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aaa83265-324a-4e1d-b400-41cc811bd119" width="600"/>
+</p>
+
+---
+
+### 📝 Sign-Up Page
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b21b6b37-3faa-4b1f-acfb-b49078733877" width="600"/>
+</p>
+
+---
+
+### 🏘️ Listing Interface
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0458e104-3dc5-4abd-9692-fe0a6c60eddd" width="600"/>
+</p>
+
+---
+
+## ✨ Features
+
+- 🎭 **Role-Based Access**: Explorer, Host, Admin dashboards  
+- 🔐 **Authentication**: Signup, Login, Logout  
+- 🏠 **Listing Management**: Add & view properties  
+- 📅 **Booking System**: Track & manage trips  
+- ⭐ **Reviews**: User feedback & trust-building  
+- 📱 **Responsive UI**: Mobile-first Bootstrap 5 design  
+- 🔔 **Notifications**: Real-time via Toastify  
+- 🎨 **Modern Design**: Blur cards, gradients, dropdowns  
+
+---
+
+## 🧰 Tech Stack
+
+| Frontend         | Backend             | State         | Styling         | Utilities         |
+|------------------|---------------------|---------------|------------------|--------------------|
+| React.js         |  Java (Spring) | Context API     | Bootstrap 5 + CSS | Toastify, GitHub    |
+| React Router DOM | Java (Spring)   | useReducer    | Responsive Layout | GitHub Actions (optional) |
+
+---
+
+## ⚙️ Installation & Setup
+
+***  
+1. Clone the repo  
    ```
-   git clone https:///RahulPatil-Tech/City_Explorer/edit/Master/City_Explorer.git
+   git clone https://github.com/RahulPatil-Tech/City_Explorer.git
    ```
-3. Navigate into the directory  
+
+3. Navigate to frontend  
    ```
-   cd Frontend
-   ``` 
+   cd frontend
+   ```
+
 5. Install dependencies  
    ```
    npm install
-   ```  
-7. Start the app locally  
+   ```
+
+7. Start the app  
    ```
    npm run dev
-   ``` 
-9. Open your browser and visit  
+   ```
+
+9. Open in browser  
    ```
    http://localhost:5173
    ```
-   
-----
-## **📂 Folder Structure**
 
+---
+
+## 📁 Folder Structure
 ```
 City_Explorer/
-├── frontend/              # React frontend source code   
-├── backend/               # Backend server source code  
-├── README.md              # Project documentation  
-└── LICENSE                # License information  
+├── frontend/
+│ ├── components/ # Reusable UI elements
+│ ├── context/ # Auth and state providers
+│ ├── pages/ # Login, Signup, Dashboards
+│ ├── assets/ # Screenshots, logos, etc.
+│ └── App.jsx
+├── backend/ (zipped) # Optional backend
+├── README.md
+└── package.json
 ```
----
-
-## **🤝 Contribution Guidelines**
-
-We work as a team to build this app! Follow these steps to contribute:
-
-- ``Fork`` the repository 🍴  
-- Create a ``feature branch`` from main:  
-  ```
-  git checkout -b feature/your-feature*
-  ```  
-- Make your changes and **commit** with clear messages:  
-  ```
-  git commit -m "Add new feature
-  ```  
-- ``Push`` to your forked repo:  
-  ```
-  git push origin feature/your-feature
-  ```
-- Open a ``Pull Request`` here for review 🔃  
 
 ---
 
-## **📜 License**
+## 🤝 Feedback & Contributions
 
-Licensed under the **MIT License** — see the LICENSE file for details.
-
----
-
-## **📬 Contact**
-
-**Project Manager:** Rahul Patil  
-✉️ Email: rp3252154@gmail.com  
-🌐 Repo: https://github.com/RahulPatil-Tech/City_Explorer/edit/Master/
+We welcome contributions!  
+Raise an issue, fork the repo, and submit a PR 🚀  
+Your feedback makes the platform better 💬
 
 ---
 
-✨ **Together, let's explore the city, one listing at a time!** 🌟🧭  
+## 📜 License
+
+Licensed under the **MIT License**.  
+See the `LICENSE` file for details.
+
+---
+
+<p align="center"><b>🚀 Explore cities, one listing at a time.</b></p>
+<p align="center">🧭 Built with teamwork & vision 🛠️</p>
+
+
 
